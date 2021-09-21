@@ -3,11 +3,13 @@
 /* variables */
 :root {
   --primary-color: #F87171;
+  --off-white: #E5E7EB;
   --dark-gray: #9CA3AF;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 hr {
@@ -58,8 +60,7 @@ hr {
   background: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 2rem;
 }
 
 .navigation .nav-brand {
@@ -94,6 +95,7 @@ hr {
   font-weight: bolder;
   color: var(--dark-gray);
   padding-top: 1rem;
+  text-align: center;
 }
 
 .hero .hero-heading .hero-inverted {
@@ -101,3 +103,33 @@ hr {
 }
 
 /* sections */
+
+.section {
+  padding: 4rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+  background: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-bottom-right-radius: 2rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0;
+}
