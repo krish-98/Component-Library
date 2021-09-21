@@ -60,7 +60,7 @@ hr {
   background: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
 
 .navigation .nav-brand {
@@ -83,6 +83,7 @@ hr {
 /* header */
 .hero {
   padding: 2rem;
+  padding-top: 5rem ;
 }
 
 .hero .hero-img {
@@ -123,7 +124,7 @@ hr {
   padding: 2rem;
   text-align: center;
   color: white;
-  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .footer .link {
